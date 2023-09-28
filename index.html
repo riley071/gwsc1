@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GWSC</title>
+   
+  
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- custom js file link  -->
+    <script src="js/script.js" defer></script>
+
+</head>
+<body>
+
+<!-- header section starts  -->
+
+<header class="header">
+
+    <a href="index.html" class="logo"> GWSC </a>
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="inform.html">Information</a></li>
+            <li><a href="pitch.html">Pitch Types</a>
+                
+                    <li><a href="review.html">Reviews</a></li>
+                    <li><a href="features.html">Features</a></li>
+                
+            </li>
+            <li><a href="contact.html">contact</a></li>
+            <li><a href="local.html">Local Attractions</a>
+                <ul>
+                    <li><a href="login.php">login</a></li>
+                    <li><a href="register.php">register</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="icons">
+        <div id="menu-btn" class="fas fa-bars"></div>
+        <div id="search-btn" class="fas fa-search"></div>
+        <a href="cart.html" class="fas fa-shopping-cart"></a>
+    </div>
+
+    <form action="" class="search-form">
+        <input type="search" name="" placeholder="search here..." id="search-box">
+        <label for="search-box" class="fas fa-search"></label>
+    </form>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- home section starts      -->
+
+<section class="home">
+
+    <div class="slide active" style="background: url(images/home-bg-1.jpg) no-repeat;">
+        <div class="content">
+            <span>Welcome to Wild Camping Adventures</span>
+            <h3>Explore the beauty of nature and experience the thrill of wild camping with us.</h3>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+
+    <div class="slide" style="background: url(images/home-bg-2.jpg) no-repeat;">
+        <div class="content">
+            <span>Unforgettable Camping Experiences</span>
+            <h3>Join us for an unforgettable adventure!</h3>
+            <a href="#" class="btn">See Now</a>
+        </div>
+    </div>
+
+    <div class="slide" style="background: url(images/home-bg-3.jpg) no-repeat;">
+        <div class="content">
+            <span>Connect with Nature</span>
+            <h3>Immerse yourself in the natural world.</h3>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+
+    <div id="next-slide" onclick="next()" class="fas fa-angle-right"></div>
+    <div id="prev-slide" onclick="prev()" class="fas fa-angle-left"></div>
+
+</section>
+<!-- Include this code within the body of your HTML page, where you want the view count to appear -->
+<div class="view-counter">
+    <h2>Number of Views</h2>
+    <div id="view-count-box">
+        <span id="view-count">0</span>
+    </div>
+</div>
+
+ <!-- Number of views counter
+ <section class="view-counter">
+    <h2>Number of Views</h2>
+    <p id="view-count">0</p>
+</section> -->
+
+<section class="banner">
+
+    <div class="box">
+        <img src="images/a.jpg" alt="">
+        <div class="content">
+            <span>Camping</span>
+            <h3>We Provide camping sites</h3>
+            <a href="#" class="btn">See now</a>
+        </div>
+    </div>
+
+    <div class="box">
+        <img src="images/b.jpg" alt="">
+        <div class="content">
+            <span>Camp Fires</span>
+            <h3>You can set up a camp fire</h3>
+            <a href="#" class="btn">See now</a>
+        </div>
+    </div>
+
+    <div class="box">
+        <img src="images/c.jpg" alt="">
+        <div class="content">
+            <span>Fishing</span>
+            <h3>We have dams for fishing</h3>
+            <a href="#" class="btn">See now</a>
+        </div>
+    </div>
+
+</section>
+<!-- header section  -->
+
+
+<!-- header section -->
+
+<!-- about section starts  -->
+
+<section class="about">
+
+    <h1 class="title">why choose us?</h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="images/v.jpg" alt="">
+        </div>
+
+        <div class="content">
+            <h3>the best Global Wild Swimming and Camping site</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. In assumenda ut nisi suscipit voluptatum, hic perspiciatis fugit quae quasi quod laudantium doloremque repellat, incidunt minus architecto dolore vero, molestiae quaerat?</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis perferendis necessitatibus exercitationem quam tempore recusandae iure qui, nobis ut aliquam.</p>
+            <a href="#" class="btn">read more</a>
+        </div>
+        
+    </div>
+
+    <div class="icons-container">
+
+        <div class="icons">
+            <img src="images/icon-1.png" alt="">
+            <h3>Many Sites</h3>
+        </div>
+
+        <div class="icons">
+            <img src="images/icon-2.png" alt="">
+            <h3>Easy Drive</h3>
+        </div>
+
+        <div class="icons">
+            <img src="images/icon-3.png" alt="">
+            <h3>Security</h3>
+        </div>
+
+        <div class="icons">
+            <img src="images/icon-4.png" alt="">
+            <h3>easy payments</h3>
+        </div>
+
+        <div class="icons">
+            <img src="images/icon-5.png" alt="">
+            <h3>24/7 support</h3>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- about section ends -->
+<section>
+    <h2>Our Location</h2><!-- banner section ends -->
+    <div class="row">
+       
+      <div class="map-container">
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15076.89592087332!2d72.8319697277345!3d19.14167056419224!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b63aceef0c69%3A0x2aa80cf2287dfa3b!2sJogeshwari%20West%2C%20Mumbai%2C%20Maharashtra%20400047!5e0!3m2!1sen!2sin!4v1636210664473!5m2!1sen!2sin" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+    </div>
+  </section>
+  
+
+  
+
+
+  
+  <section>
+  <div class="row">
+       
+    <form action="?" method="POST">
+      <div class="g-recaptcha" data-sitekey="6LcHIEooAAAAAAIZKmX8zO8D3qCfmd04GPhrTbU8"></div>
+      <br/>
+      <input type="submit" value="Submit">
+    </form>
+    </div>
+ </section>
+<!-- footer section starts  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>Youre here</h3>
+            <a href="home.html"> <i class="fas fa-angle-right"></i> home</a>
+            <a href="products.html"> <i class="fas fa-angle-right"></i> products</a>
+            <a href="about.html"> <i class="fas fa-angle-right"></i> about</a>
+            <a href="blogs.html"> <i class="fas fa-angle-right"></i> blogs</a>
+            <a href="contact.html"> <i class="fas fa-angle-right"></i> contact</a>
+                 </div>
+
+        <div class="box">
+            <h3>extra links</h3>
+            <a href="#"> <i class="fas fa-angle-right"></i> my account </a>
+            <a href="#"> <i class="fas fa-angle-right"></i> my order </a>
+            <a href="#"> <i class="fas fa-angle-right"></i> my wishlist </a>
+            <a href="#"> <i class="fas fa-angle-right"></i> terms of use </a>
+            <a href="#"> <i class="fas fa-angle-right"></i> privacy policy </a>
+        </div>
+
+        <div class="box">
+            <h3>follow us</h3>
+            <a href="#"> <i class="fab fa-facebook-f"></i> facebook </a>
+            <a href="#"> <i class="fab fa-twitter"></i> twitter </a>
+            <a href="#"> <i class="fab fa-instagram"></i> instagram </a>
+            <a href="#"> <i class="fab fa-pinterest"></i> pinterest </a>
+            <a href="#"> <i class="fab fa-linkedin"></i> linkedin </a>
+            <a href="#"> <i class="fab fa-github"></i> github </a>
+        </div>
+
+        <div class="box">
+            <h3>newsletter</h3>
+            <p>subscribe for latest updates</p>
+            <form action="">
+                <input type="email" placeholder="enter your emal">
+                <input type="submit" value="subscribe" class="btn">
+            </form>
+        </div>
+
+    </div>
+
+    
+</section>
+
+<!-- footer section ends -->
+
+</body>
+
+</html>
